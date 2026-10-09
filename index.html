@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PoultryVision</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PART 1: the landing section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <svg class="chick" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="15" fill="#ffffff"></circle>
+        <path d="M9 19c0-5 3-9 8-9 4 0 7 3 7 7 0 4-3 7-8 7-4 0-7-2-7-5z" fill="#ffc83d"></path>
+        <circle cx="19" cy="14" r="1.4" fill="#134d2d"></circle>
+        <path d="M24 15l3 1.2-3 1.3z" fill="#e8851e"></path>
+      </svg>
+      <p class="tag">AI check for poultry health</p>
+      <h1>Is your flock healthy?</h1>
+      <p class="lead">Take a photo of a chicken dropping. PoultryVision checks it, explains the result in simple words, and answers your questions.</p>
+      <a class="start" href="#check">Start a check ↓</a>
+      <ul class="steps">
+        <li><b>1</b>Send a photo</li>
+        <li><b>2</b>Get the result</li>
+        <li><b>3</b>Ask questions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PART 2: the chat section -->
+  <section class="app" id="check">
+    <header>Chat with PoultryVision</header>
+
+    <div id="chat"></div>
+
+    <div id="bar">
+      <input type="file" id="photoInput" accept="image/*" hidden>
+      <button id="photoBtn">📷 Photo</button>
+      <input type="text" id="textInput" placeholder="Type a message">
+      <button id="sendBtn">Send</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
