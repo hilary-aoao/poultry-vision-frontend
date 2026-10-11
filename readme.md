@@ -2,7 +2,7 @@
 
 A chat-style web app for small-scale poultry farmers. Send a photo of a chicken dropping and PoultryVision gives you one clear result (Healthy, Coccidiosis, Salmonella or Newcastle disease), says how sure it is, explains what it means in plain words, and answers follow-up questions. A short report can be shared on WhatsApp or shown to a vet.
 
-**Live app:** https://YOUR-SITE-NAME.netlify.app
+**Live app:** https://poultryvision.netlify.app
 
 **Backend API:** https://poultryvision-api.onrender.com (code: https://github.com/hilary-aoao/poultry-vision-backend)
 
@@ -56,8 +56,8 @@ The backend reads the photo to make the check and does not save it.
 
 ## Credits
 
-Built by Hilary Orefo as a personal learning project. The frontend was written stage by stage with guidance from Claude (Anthropic).
+Built by Hilary Orefo as a personal learning project.
 
-Image model: ResNet18 trained in a Kaggle notebook. Dataset: add the dataset name and link here.
+Image model: ResNet18 trained in a Kaggle notebook.
 
 Knowledge base sources: public health and veterinary sources, including the Ohio Department of Health, King County Public Health, dvm360, UMN Extension, the Merck Veterinary Manual and peer-reviewed zoonotic disease research.
